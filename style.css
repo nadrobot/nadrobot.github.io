@@ -1,0 +1,59 @@
+    body {
+        width: 350px;
+        margin: 0;
+        padding: 0 10px;
+        font-size: 14px;
+        font-family: Arial;
+    }
+    table {
+        padding: 5px;
+        border-collapse: collapse;
+        
+    }
+    th {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        
+    }
+    td {
+        padding: 10px;
+        border-bottom: 1px solid lightgray;
+        
+    }
+    .row-1 {
+        background-color:darkcyan;
+        color: white;
+        text-align: left;
+        
+    }
+    .row-2 {
+        background-color:lightblue;
+        color: white;
+    }
+    .row-3 {
+        background-color:darkcyan;
+        color: white;
+        text-align: right;
+    }
+    .row-4 {
+        text-align:left;
+        background-color: lightyellow;
+    }
+    .row-5 {
+        text-align:center;
+    }
+    .row-6 {
+        text-align:right;
+        background-color: lightyellow;
+    }
+    .row-7 {
+        text-align: left;
+    }
+    .row-8 {
+        text-align:center;
+        background-color: lightyellow;
+    }
+    .row-9 {
+        text-align:right;
+    }
