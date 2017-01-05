@@ -1,59 +1,77 @@
-    body {
-        width: 350px;
-        margin: 0;
-        padding: 0 10px;
-        font-size: 14px;
-        font-family: Arial;
-    }
-    table {
-        padding: 5px;
-        border-collapse: collapse;
-        
-    }
-    th {
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        padding: 10px;
-        
-    }
-    td {
-        padding: 10px;
-        border-bottom: 1px solid lightgray;
-        
-    }
-    .row-1 {
-        background-color:darkcyan;
-        color: white;
-        text-align: left;
-        
-    }
-    .row-2 {
-        background-color:lightblue;
-        color: white;
-    }
-    .row-3 {
-        background-color:darkcyan;
-        color: white;
-        text-align: right;
-    }
-    .row-4 {
-        text-align:left;
-        background-color: lightyellow;
-    }
-    .row-5 {
-        text-align:center;
-    }
-    .row-6 {
-        text-align:right;
-        background-color: lightyellow;
-    }
-    .row-7 {
-        text-align: left;
-    }
-    .row-8 {
-        text-align:center;
-        background-color: lightyellow;
-    }
-    .row-9 {
-        text-align:right;
-    }
+body {
+    width: 450px;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.logo,
+.contacts,
+.about-us,
+.main-menu,
+.footer {
+    padding: 10px 20px 10px 20px;
+    background-color: #f5f5f5;
+    border: 2px solid #cccccc;
+}
+
+/* Собственные стили блоков */
+
+.header {
+    min-height: 40px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    float: left;
+    width: 230px;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+
+.contacts {
+    float: right;
+    width: 110px;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.about-us {
+    float: left;
+    width: 230px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.about-us h1 {
+    
+     font-size: 20px;
+     font-style: bold;
+   
+}
+
+.about-us p {
+    font-size: 12px;
+}
+
+.main-menu {
+    float: right;
+    width: 110px;
+    background-color: #ffffff;
+    
+  
+}
+
+.footer {
+    clear:both;
+    padding: 10px 0px 10px 20px; 
+    background-color: #333333;
+    color: #ffffff;
+    
+}
